@@ -70,11 +70,9 @@ body {
 
 .sessao2 {
     background-color: var(--cor-02);
-    padding-left: 140px;
-    padding-right: 144px;
-    padding-bottom: 300px;
+    padding: 50px 143px;
 }
 
 .sessao2 p {
-    color: black;
+    color: var(--cor-01);
 }
