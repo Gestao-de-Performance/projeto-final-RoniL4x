@@ -15,11 +15,14 @@
     flex-wrap: nowrap;
     list-style: none;
     background-color: var(--cor-01);
-    padding: 10px;
-    margin-top: 0;
-    position: fixed;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
     top: 0;
+    margin: 0;
     width: 100%;
+    position: fixed;
+    border-bottom: 1px solid var(--cor-04);
 }
 
 a {
@@ -31,7 +34,7 @@ a {
 
 h3 {
     padding-right: 200px;
-    border-bottom: 2px solid var(--cor-04);
+    border-bottom: 1px solid var(--cor-04);
     margin-top: -15px;
 }
 
@@ -43,10 +46,12 @@ h3 {
 
 a:hover {
     color: var(--cor-04);
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--cor-03);
 }
 
 body {
-    background-color: rgb(36, 36, 36);
+    background-color: var(--cor-05);
     margin: 0;
 }
 
@@ -55,50 +60,75 @@ body {
     width: 250px;
 }
 
-.sessao1 {
+.apresentacao {
+    background: linear-gradient(133deg, rgb(0, 0, 0), rgb(0, 162, 255));
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding-top: 65px;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 165px;
+    padding-right: 165px;
     text-align: justify;
 }
 
-.sessao2 {
-    background-color: var(--cor-02);
+.habiliades {
+    background-color:var(--cor-01);
     text-align: justify;
-    padding-right: 140px;
-    padding-left: 140px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-right: 165px;
+    padding-left: 165px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .sessao2 p {
-    color: var(--cor-01);
+    color: var(--cor-02);
 }
 
-.sessao3 {
+.sessaoLinguagens {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+
+.pLinguagens {
+    padding-right: 35px;
+    text-align: left;
+}
+
+.pLinguagens2 {
+    text-align: left;
+}
+
+.projetos {
     background-color: var(--cor-02);
     text-align: justify;
-    padding-right: 140px;
-    padding-left: 140px;
+    padding-right: 165px;
+    padding-left: 165px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.sessao3 p {
+.projetos p {
     color: var(--cor-01);
 }
 
 .contatos {
-    background-color: var(--cor-05);
+    background: linear-gradient(133deg, rgb(0, 0, 0), rgb(0, 162, 255));
     text-align: justify;
-    padding-right: 140px;
-    padding-left: 140px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-right: 165px;
+    padding-left: 165px;
+    padding-top: 20 px;
+    padding-bottom: 20px;
+    border-top: 1px solid var(--cor-04);
 }
