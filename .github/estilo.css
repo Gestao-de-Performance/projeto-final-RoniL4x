@@ -3,6 +3,7 @@
     --cor-02: rgb(233, 233, 233);
     --cor-03: rgb(255, 217, 0);
     --cor-04: rgb(0, 162, 255);
+    --cor-05: rgb(36, 36, 36);
 }
 
 .cabeçalho {
@@ -42,7 +43,6 @@ h3 {
 
 a:hover {
     color: var(--cor-04);
-    
 }
 
 body {
@@ -64,15 +64,41 @@ body {
     align-items: center;
     padding-top: 65px;
     padding-left: 140px;
-    padding-right: 144px;
+    padding-right: 140px;
     text-align: justify;
 }
 
 .sessao2 {
     background-color: var(--cor-02);
-    padding: 50px 143px;
+    text-align: justify;
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .sessao2 p {
     color: var(--cor-01);
+}
+
+.sessao3 {
+    background-color: var(--cor-02);
+    text-align: justify;
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sessao3 p {
+    color: var(--cor-01);
+}
+
+.contatos {
+    background-color: var(--cor-05);
+    text-align: justify;
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
