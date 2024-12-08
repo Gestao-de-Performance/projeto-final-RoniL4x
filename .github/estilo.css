@@ -32,7 +32,7 @@ a {
     color: var(--cor-02);
 }
 
-h3 {
+h2 {
     padding-right: 200px;
     border-bottom: 1px solid var(--cor-04);
     margin-top: -15px;
@@ -68,8 +68,8 @@ body {
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 350px;
+    padding-bottom: 350px;
     padding-left: 165px;
     padding-right: 165px;
     text-align: justify;
@@ -77,37 +77,20 @@ body {
 
 .habiliades {
     background-color:var(--cor-01);
-    text-align: justify;
-    padding-right: 165px;
-    padding-left: 165px;
     padding-top: 40px;
     padding-bottom: 40px;
+    padding-left: 165px;
+    padding-right: 165px;
+    text-align: justify;
+    margin: 0;
 }
 
 .sessao2 p {
     color: var(--cor-02);
 }
 
-.sessaoLinguagens {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left;
-    padding-left: 0px;
-    padding-right: 0px;
-    flex-direction: row;
-    flex-wrap: nowrap;
+.listaLinguagens {
     list-style: none;
-}
-
-.pLinguagens {
-    padding-right: 35px;
-    text-align: left;
-}
-
-.pLinguagens2 {
-    text-align: left;
 }
 
 .projetos {
@@ -115,12 +98,26 @@ body {
     text-align: justify;
     padding-right: 165px;
     padding-left: 165px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 1px;
 }
 
 .projetos p {
     color: var(--cor-01);
+    padding-bottom: 0px;
+}
+
+.projetos ul {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    width: 800;
+}
+
+.projetos li {
+    padding-top: 50px;
 }
 
 .contatos {
