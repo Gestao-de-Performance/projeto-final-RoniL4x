@@ -234,6 +234,46 @@ body {
         text-align: left;
         font-size: 0.9em;
     }
+
+    .habiliades {
+        background-color:var(--cor-01);
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+        margin: 0;
+        font-size: 1em;
+    }
+
+    .projetos img {
+        width: 700px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .projetos {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .contatos {
+        background: linear-gradient(133deg, rgb(0, 0, 0), rgb(0, 162, 255));
+        text-align: justify;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top: 1px solid var(--cor-04);
+    }
+
+
+
 }
 
 @media (min-width: 360px) and (max-width: 360px) {
