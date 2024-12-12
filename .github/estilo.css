@@ -281,6 +281,10 @@ body {
         width: 360px;
     }
     
+    p {
+        font-size: 8px;
+    }
+
     .cabeçalho {
         display: flex;
         flex-direction: column;
@@ -292,7 +296,8 @@ body {
         background-color: var(--cor-01);
         padding-top: 15px;
         padding-bottom: 15px;
-        padding-left: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
         top: 0;
         margin: 0;
         width: 100%;
@@ -315,7 +320,15 @@ body {
         padding-right: 15px;
         text-align: justify;
         width: 360px;  
+        margin: 0;
     }
+
+    .apresentacao ul {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 360px;
+    }
+
 
     .habiliades {
         background-color:var(--cor-01);
@@ -352,6 +365,14 @@ body {
         padding-bottom: 20px;
         border-top: 1px solid var(--cor-04);
         width: 360px;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 11px;
     }
 
 }
