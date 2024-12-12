@@ -285,6 +285,10 @@ body {
         font-size: 8px;
     }
 
+    a {
+        font-size: 12px;
+    }
+
     .cabeçalho {
         display: flex;
         flex-direction: column;
@@ -315,7 +319,7 @@ body {
         justify-content: center;
         align-items: center;
         padding-top: 150px;
-        padding-bottom: 150px;
+        padding-bottom: 50px;
         padding-left: 15px;
         padding-right: 15px;
         text-align: justify;
@@ -332,7 +336,7 @@ body {
 
     .habiliades {
         background-color:var(--cor-01);
-        padding-top: 40px;
+        padding-top: 30px;
         padding-bottom: 40px;
         padding-left: 15px;
         padding-right: 15px;
@@ -347,13 +351,25 @@ body {
         text-align: justify;
         padding-left: 15px;
         padding-right: 15px;
-        padding-top: 80px;
+        padding-top: 30px;
         padding-bottom: 1px;
         width: 360px;
     }
 
     .projetos img {
         width: 320px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .projetos li {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .projetos ul {
+        padding-top: 0px;
+        padding-bottom: 20px;
     }
 
     .contatos {
